@@ -13,17 +13,17 @@ const Skills : NextComponentType = () => {
       <h2>Tenho esses conhecimentos básicos:</h2>
       <ul className={styles.ul}>
         <li className={styles.liEnglish}>
-          <Image src={imgEnglish}/>
+          <Image src={imgEnglish} alt=""/>
           {'\u00A0\u00A0\u00A0'}
           Inglês
         </li>
         <li className={styles.liStatic}>
-          <Image src={imgStatic}/>
+          <Image src={imgStatic} alt=""/>
           {'\u00A0\u00A0\u00A0'}
           Web estática
         </li>
         <li className={styles.liJs}>
-          <Image src={imgJsSmall}/>
+          <Image src={imgJsSmall} alt=""/>
           {'\u00A0\u00A0\u00A0'}
           JavaScript
         </li>

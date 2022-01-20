@@ -13,8 +13,7 @@ const Bio: NextComponentType = () => {
       <div className={styles.containerBio}>
 
         <div className={styles.imgJs}>
-          <Image
-            src={imgJs}
+          <Image src={imgJs} alt="JavaScript logo"
           />
         </div>
 
@@ -27,8 +26,7 @@ const Bio: NextComponentType = () => {
       <div className={styles.containerBio}>
 
         <div className={styles.imgAngular}>
-          <Image
-            src={imgAngular}
+          <Image src={imgAngular} alt="Angular logo"
           />
         </div>
 
