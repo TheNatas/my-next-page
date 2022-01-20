@@ -1,0 +1,61 @@
+section#skills{
+  background-color: #FC997C;
+}
+
+.ul{
+  width: 100%;
+  max-width: 25rem;
+  margin: 1rem auto;
+}
+
+.liEnglish, .liStatic, .liJs{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.liStatic{
+  margin-bottom: .5rem;
+}
+
+.liEnglish:hover, .liStatic:hover, .liJs:hover{
+  font-style: inherit;
+}
+.liEnglish::after{
+  content: '\00a0 (Avançado)';
+  font-weight: 600;
+}
+.liStatic::after{
+  content: '\00a0 (HTML, CSS, Bootstrap)';
+  font-weight: 600;
+}
+.liJs::after{
+  content: '\00a0 (ES6, TypeScript, Angular)';
+  font-weight: 600;
+}
+
+/* When not a touch screen, show li content 
+  only on hover */
+  @media screen and (min-width: 900px) {
+    .liEnglish::after{
+      content: inherit;
+    }
+    .liStatic::after{
+      content: inherit;
+    }
+    .liJs::after{
+      content: inherit;
+    }
+    .liEnglish:hover, .liStatic:hover, .liJs:hover{
+      font-style: italic;
+    }
+    .liEnglish:hover::after{
+      content: '\00a0 (Avançado)';
+    }
+    .liStatic:hover::after{
+      content: '\00a0 (HTML, CSS, Bootstrap)';
+    }
+    .liJs:hover::after{
+      content: '\00a0 (ES6, TypeScript, Angular)';
+    }
+  }

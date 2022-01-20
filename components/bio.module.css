@@ -1,0 +1,43 @@
+section#bio{
+  background-color: #FC997C;
+  padding-top: 2rem;
+}
+
+.containerBio{
+  display: inline-block;
+  width: 90%;
+  max-width: 50rem;
+  margin-bottom: 1rem;
+}
+
+.containerBio p{
+  text-align: center;
+}
+.containerBio #pSecond{
+  text-align: center;
+}
+
+.imgJs{
+  height: 128px;
+  width: 128px;
+}
+.imgAngular{
+  height: 128px;
+  width: 128px;
+}
+
+@media screen and (min-width: 700px) {
+  .containerBio p{
+    text-align: start;
+  }
+  .containerBio #pSecond{
+    text-align: end;
+  }
+  .imgJs{
+    float: left;
+    margin-right: 1rem;
+  }
+  .imgAngular{
+    float: right;
+  }
+}
