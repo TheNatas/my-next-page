@@ -33,7 +33,7 @@ const Bio: NextComponentType = () => {
         </div>
 
         <p id={styles.pSecond}>
-          Hoje já iniciei um curso de graduação na área e recebi uma bolsa de estudos para o curso de Web FullStack, da <a href="https://letscode.com.br">Let's Code</a>, através de uma campanha do Santander. Por já ter passado pelos módulos de front-end, onde trabalhamos com Angular, tenho mais intimidade nessa área, porém estou bem animado para aprender também sobre back-end, onde veremos Java.
+          {`Hoje já iniciei um curso de graduação na área e recebi uma bolsa de estudos para o curso de Web FullStack, da <a href="https://letscode.com.br">Let's Code</a>, através de uma campanha do Santander. Por já ter passado pelos módulos de front-end, onde trabalhamos com Angular, tenho mais intimidade nessa área, porém estou bem animado para aprender também sobre back-end, onde veremos Java.`}
         </p>
         
       </div>
