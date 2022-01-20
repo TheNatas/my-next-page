@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import { Head } from 'next/document'
+import Head from 'next/head'
 import Background from '../components/Background'
 import Bio from '../components/Bio'
 import Contact from '../components/Contact'
@@ -12,7 +12,9 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <Head title='Natanael Alves Gabriel'></Head>
+      <Head>
+        <title>Natanael Alves Gabriel</title>
+      </Head>
       <Background/>
       <Header/>
       <Bio/>
