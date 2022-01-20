@@ -6,7 +6,7 @@ import styles from './background.module.css';
 const Background : NextComponentType = () => {
   return(
     <div className={styles.overlay}>
-      <Image src={background} layout='fill'/>
+      <Image src={background} layout='fill' alt=''/>
     </div>
   )
 }
